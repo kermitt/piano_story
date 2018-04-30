@@ -4,7 +4,7 @@ Text from the textarea will be converted into paino notes.<br>
 Sadly, I forget where I got the mps from.<br>  
 
 ## Usage
-Step1: Have a web server ( http://localhost:3030/piano.html )
-Step2: Type something into the textarea. 
-Step3: Press the button. 
-Step4: Listen. 
+Step1: Have a web server ( e.g., http://localhost:3030/piano.html )<br>
+Step2: Type something into the textarea. <br>
+Step3: Press the button. <br>
+Step4: Listen. <br>
