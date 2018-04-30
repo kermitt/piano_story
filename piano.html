@@ -110,9 +110,6 @@
         function playstory() {
             let x = document.getElementById("story").value
             let letters = x.split("")
-            //for ( let l in letters ) {
-            //}
-            //console.log( x ) ; 
             playnote(letters, 0);
         }
 
@@ -123,14 +120,10 @@
                 i++
 
                 let r = Math.random() * 500
-
-                                console.log(letter + " " + ascii + " " + r )
-
+		console.log(letter + " " + ascii + " milsec " + r )
 
                 playit(seen[ascii])
-                setTimeout(function() {
-                    playnote(ary, i)
-                }, 100 + r);
+                setTimeout(function() { playnote(ary, i) }, 100 + r);
             } else {
                 console.log("STOP");
             }
